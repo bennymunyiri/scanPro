@@ -7,7 +7,7 @@ export default function Enquiry() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_nsvgflw', 'template_aoxjvhy', formRef.current, 'H6H8RUONRnw0CLSR3')
+        emailjs.sendForm('service_g4s9s1m', 'template_e1d3ajf', formRef.current, '1A-uYlUl4jhP6cPWT')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
