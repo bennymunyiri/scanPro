@@ -5,15 +5,15 @@ export default function Products() {
     let products = [
         {
             image: finnaly,
-            name: "C66 UHF RFID Reader (Android 11 / 13)",
-            miniDescription: "Larger Screen Display, Stronger UHF Performance for reading and writing.",
-            Description: "C66 UHF is the ultimate RFID reader which is highly sensitive with a reading range up to 30m.The C66 UHF (Built-in) is a lightweight phone-size reader built for short-distance applications.Both of them feature Android 11/13, Qualcomm Octa-core processor, 5.5'' large screen, powerfulbattery, 13MP camera, and optional barcode scanning"
-        },
-        {
-            image: product1,
             name: "C61 Mobile Computer (Android 11)",
             miniDescription: "Easy and Flexible Data Entry, Remarkable Data Capture Performance",
             Description: "C61 Mobile Computer, a rugged handheld with Android 11 and Qualcomm Octa-Core, offers optional 27/37/47 keypads, 6700mAh battery, quick charge, trigger handle with 5200mAh extension, various accessories, barcode scanning, RFID, NFC. With robust data collection and Wi-Fi 6, it suits logistics, warehousing, retail, and more"
+        },
+        {
+            image: product1,
+            name: "C66 UHF RFID Reader (Android 11 / 13)",
+            miniDescription: "Larger Screen Display, Stronger UHF Performance for reading and writing.",
+            Description: "C66 UHF is the ultimate RFID reader which is highly sensitive with a reading range up to 30m.The C66 UHF (Built-in) is a lightweight phone-size reader built for short-distance applications.Both of them feature Android 11/13, Qualcomm Octa-core processor, 5.5'' large screen, powerfulbattery, 13MP camera, and optional barcode scanning"
         },
         {
             image: cards,
