@@ -7,12 +7,6 @@ const Banner = () => {
     const [showImage, setShowImage] = useState(true);
     const [textAnimationTimeout, setTextAnimationTimeout] = useState(null);
 
-    const sentences = [
-        'Best in Kenya, state of the art RFID scanners',
-        'Stay ahead with our efficient RFID technology',
-        'See Our Products Below'
-    ];
-
     const isMobile = window.innerWidth <= 900; // Check if the device is a mobile phone
 
     const images = isMobile ? [slide3, slide2, finaly_cleanup] : [slide3, slide2, laptop];
@@ -32,10 +26,16 @@ const Banner = () => {
             clearInterval(intervalId);
             clearTimeout(textAnimationTimeout); // Clear the text animation timeout on component unmount
         };
-    }, [currentSlide, textAnimationTimeout]);
+    }, [textAnimationTimeout]);
 
     useEffect(() => {
         let index = 0;
+        const sentences = [
+            'Best in Kenya, state of the art RFID scanners',
+            'Stay ahead with our efficient RFID technology',
+            'See Our Products Below'
+        ];
+
         const textInterval = setInterval(() => {
             setCurrentText((prevText) => sentences[currentSlide - 1].slice(0, index + 1));
             index++;
@@ -65,3 +65,4 @@ const Banner = () => {
 };
 
 export default Banner;
+
